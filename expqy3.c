@@ -4,10 +4,10 @@ int main()
     char name[100];
     int age;
     printf("Enter your name: ");
-    scanf("%c", &name);
+    scanf("%s", &name);
     printf("Enter your age: ");
     scanf("%d", &age);
-    printf("%c\n", name);
+    printf("%s\n", name);
     printf("%d\n", age);
     return 0;
 }
