@@ -4,12 +4,11 @@ float temperature(float a, float b){
     b= (a*9/5)+32;
     return b;
 }
-int main()
-{
-    float celcius, fahrenheit;
-    printf("enter celcius:");
+int main(){
+    float celcius, fahrenheit, result;
+    printf("enter cdelcius: ");
     scanf("%f", &celcius);
-    float result = temperature(celcius, fahrenheit);
-    printf("fahrenheit: %f\n", result);
+    result= temperature(celcius, fahrenheit);
+    printf("fahrenheit=%f", result);
     return 0;
 }
