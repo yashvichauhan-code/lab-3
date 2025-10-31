@@ -7,3 +7,4 @@ int main()
     printf("country: India\n");
     return 0;
 }
+//fix
